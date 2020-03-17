@@ -95,4 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
+    public void pauseMusic(View view) {
+        mSpotifyAppRemote.getPlayerApi().pause();
+    }
 }
