@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:layout_marginBottom="153dp"
+        android:layout_marginBottom="73dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="Music Matcher"
@@ -19,34 +19,25 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:typeface="sans"
-        app:layout_constraintBottom_toTopOf="@+id/statsButton"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/statsButton"
-        android:layout_width="216dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="55dp"
-        android:onClick="showStats"
-        android:text="show my listening stats"
-        app:layout_constraintBottom_toTopOf="@+id/unknownButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/unknownButton"
-        android:layout_width="216dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="290dp"
-        android:text="play some jams bruv"
-        android:onClick="playMusic"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="141dp"
+        android:text="There will be stats here at some point but for the moment I am just rambling on for testing"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/statsButton" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,2 +1,2 @@
 rootProject.name='MusicApp'
-include ':app'
+include ':app', ':spotify-app-remote'
